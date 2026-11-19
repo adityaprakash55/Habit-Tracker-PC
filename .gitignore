@@ -1,0 +1,35 @@
+# Environment variables and secrets
+.env
+*.env
+*.env.*
+!.env.example
+*.json
+!volthabit_goals.json.example
+
+# Specifically exclude any Firebase Service Account keys
+*firebase-adminsdk*.json
+serviceAccountKey*.json
+
+# Local runtime data
+volthabit_goals.json
+volthabit_habits.json
+volthabit_groups.json
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE / OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+*.log
